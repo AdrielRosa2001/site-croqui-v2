@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CROQUI - Biro de Plotagem</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/images.css">
+        <link rel="stylesheet" href="./css/divs.css">
+        <link rel="stylesheet" href="./css/textos.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+        <link rel="icon" type="imagem/png" href="./images/icones/icone-site-croqui.png" />
+
+    </head>
+    <body>
+        <header style="position: fixed; z-index: 1000;">
+            <header id="header">
+                <a href="/"><img id="logo" src="./images/logo.png"/></a> <!-- class="logo" -->
+                <nav id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                        <span id="hamburger" ></span>
+                    </button>
+                    <ul id="menu" role="menu"> <!-- class="nav-list" -->
+                        <li><a id="elementos-menu1" href="#inicio">Inicio</a></li>
+                        <li><a id="elementos-menu2" href="#servicos">Serviços</a></li>
+                        <li><a id="elementos-menu3" href="#nossas-lojas">Lojas</a></li>
+                        <li><a id="elementos-menu4" href="#quem-somos">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <header>
+                <div style="display: flex;">
+                    <div style="
+                        background-color: #FFCC29;
+                        width: 9%;
+                        height: 3px;
+                        "></div>
+                    <div style="    
+                        background-color: #ED3237;
+                        width: 16%;
+                        height: 3px;
+                        "></div>
+                    <div style="
+                        background-color: #2957A4;
+                        width: 75%;
+                        height: 3px;
+                        "></div>
+                </div>
+            </header>
+        </header>
+        
+        <div style="width: 100%; height: 55px;"></div>
+        <main class="main-1">
+            <!-- <div style="width: 100%; height: 55px; background-color: #fff;"></div> -->
+            <div class="slider-principal" id="inicio">
+                <div style="width: 100%; height: auto;"><img src="./images/images-slider/img1.png" alt="Lorem Inpsun" style="width: 100%; height: auto;"/></div>
+                <div style="width: 100%; height: auto;"><img src="./images/images-slider/img2.png" alt="Lorem Inpsun" style="width: 100%; height: auto;"/></div>
+                <div style="width: 100%; height: auto;"><img src="./images/images-slider/img3.png" alt="Lorem Inpsun" style="width: 100%; height: auto;"/></div>
+                <div style="width: 100%; height: auto;"><img src="./images/images-slider/img1.png" alt="Lorem Inpsun" style="width: 100%; height: auto;"/></div>
+                <div style="width: 100%; height: auto;"><img src="./images/images-slider/img2.png" alt="Lorem Inpsun" style="width: 100%; height: auto;"/></div>
+                <div style="width: 100%; height: auto;"><img src="./images/images-slider/img3.png" alt="Lorem Inpsun" style="width: 100%; height: auto;"/></div>
+            </div>
+            <div class="arrow-prev">
+                <span><img src="./images/icones/arrow-left.png" alt="arrow-prev" style="width: 30px; height: auto; color: #fff;"></span>
+            </div>
+            <div class="arrow-next">
+                <span><img src="./images/icones/arrow-rigth.png" alt="arrow-prev" style="width: 30px; height: auto;"></span>
+            </div>
+        </main>
+        <main class="main-2">
+            <div class="sessao-1">
+                <h2 class="h2-preto">Nossos Serviços:</h2>
+                <div class="div-grid-itens" id="servicos">
+                    <div class="dupla-item">
+                        <div style="width: 50%;height: 100%;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+                            <a id="plotagem" class="item-grid" href="/">
+                                <img src="./images/icones/plotter.png" alt="plotter-icon" style="width: 60%; height: auto;">
+                            </a>
+                        </div>
+                        <div style="width: 50%;height: 100%;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+                            <a id="escaneamento" class="item-grid" href="/">
+                                <img src="./images/icones/scanner.png" alt="plotter-icon" style="width: 60%; height: auto;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dupla-item">
+                        <div style="width: 50%;height: 100%;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+                            <a id="imagem" class="item-grid" href="/">
+                                <img src="./images/icones/imagem.png" alt="plotter-icon" style="width: 60%; height: auto;">
+                            </a>
+                        </div>
+                        <div style="width: 50%;height: 100%;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+                            <a id="impressao" class="item-grid" href="/">
+                                <img src="./images/icones/impressao.png" alt="plotter-icon" style="width: 60%; height: auto;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dupla-item">
+                        <div style="width: 50%;height: 100%;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+                            <a id="plastificacao" class="item-grid" href="/">
+                                <img src="./images/icones/plastificacao.png" alt="plotter-icon" style="width: 60%; height: auto;">
+                            </a>
+                        </div>
+                        <div style="width: 50%;height: 100%;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+                            <a id="placas" class="item-grid" href="/">
+                                <img src="./images/icones/placas.png" alt="plotter-icon" style="width: 60%; height: auto;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <main class="main-3">
+            <div class="sessao-2">
+                <h2 class="h2-preto" id="nossas-lojas">Nossas Lojas: </h2>
+                <div class="container-lojas">
+                    <div class="center-all w40">
+                        <img class="img-lojas" src="./images/foto-frente-croqui.png" alt="Croqui - Petropolis">
+                    </div>
+                    <div class="divs-s2" style="align-items: flex-start;">
+                        <h2 class="h2-nomes-lojas">Croqui - Trairi</h2>
+                        <b>Endereço:</b> Rua Trairi, 777 - Petrópolis, Natal - RN, 59020-150 <br><br>
+                        <b>Horarios de funcionamento:</b>
+                        <div class="texto-horarios" style="display: flex; flex-direction: row; text-align: left;">
+                            <div>
+                                Domingo<br>
+                                Segunda-feira<br>
+                                Terça-feira<br>
+                                Quarta-feira<br>
+                                Quinta-feira<br>
+                                Sexta-feira<br>
+                                Sábado<br>
+                            </div>
+                            <div style="padding-left: 20px;">
+                                Fechado <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                Fechado <br>
+                            </div>
+                        </div>
+                        <p class="texto-telefone"><b>Telefone & Whatsapp:</b> (84) 3202-9955</p>
+                        <ul class="botoes-acessos-loja">
+                            <a class="botao-wpp-link" href="https://api.whatsapp.com/send/?phone=%2B558432029955&text&type=phone_number&app_absent=0" target="_blank"><li class="botao-contatar">Contatar via Whatsapp</li></a>
+                            <a class="botao-maps-link" href="https://goo.gl/maps/xDPEX2rdvsG8r7M37" target="_blank"><li class="botao-maps">Abrir localização no Maps</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-lojas-reverse">
+                    <div class="center-all w40">
+                        <img class="img-lojas" src="./images/foto-frente-croqui-sj.png" alt="Croqui - São José">
+                    </div>
+                    <div class="divs-s2" style="align-items: flex-start;">
+                        <h2 class="h2-nomes-lojas">Croqui - São José</h2>
+                        <b>Endereço:</b> Rua São José, 2002, Shopping esquina em frente à academia BurnFit - Lagoa Nova, Natal - RN, 59063-380 <br><br>
+                        <b>Horarios de funcionamento:</b>
+                        <div class="texto-horarios" style="display: flex; flex-direction: row; text-align: left;">
+                            <div>
+                                Domingo<br>
+                                Segunda-feira<br>
+                                Terça-feira<br>
+                                Quarta-feira<br>
+                                Quinta-feira<br>
+                                Sexta-feira<br>
+                                Sábado<br>
+                            </div>
+                            <div style="padding-left: 20px;">
+                                Fechado <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:30 – 12:30 <br>
+                            </div>
+                        </div>
+                        <p class="texto-telefone"><b>Telefone & Whatsapp:</b><br>(84) 3234-9599</p>
+                        <ul class="botoes-acessos-loja">
+                            <a class="botao-wpp-link" href="https://api.whatsapp.com/send/?phone=%2B558432349599&text&type=phone_number&app_absent=0" target="_blank"><li class="botao-contatar">Contatar via Whatsapp</li></a>
+                            <a class="botao-maps-link"  href="https://goo.gl/maps/UTEdi3zpDbgSpEvr9" target="_blank"><li class="botao-maps">Abrir localização no Maps</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-lojas">
+                    <div class="center-all w40">
+                        <img class="img-lojas" src="./images/foto-frente-croqui-tr.png" alt="Croqui - Zona Sul">
+                    </div>
+                    <div class="divs-s2" style="align-items: flex-start;">
+                        <h2 class="h2-nomes-lojas">Croqui - Zona Sul</h2>
+                        <div style="width: 85%;"><b>Endereço:</b> Subsolo da COMJOL, Av. Engenheiro Roberto Freire, 1809 - LJ 11 - Capim Macio, Natal - RN, 59078-600 <br><br></div>
+                        <b>Horarios de funcionamento:</b>
+                        <div class="texto-horarios" style="display: flex; flex-direction: row; text-align: left;">
+                            <div>
+                                Domingo<br>
+                                Segunda-feira<br>
+                                Terça-feira<br>
+                                Quarta-feira<br>
+                                Quinta-feira<br>
+                                Sexta-feira<br>
+                                Sábado<br>
+                            </div>
+                            <div style="padding-left: 20px;">
+                                Fechado <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 18:00 <br>
+                                08:00 – 13:30 <br>
+                            </div>
+                        </div>
+                        <p class="texto-telefone"><b>Telefone & Whatsapp:</b>(84) 3217-5038</p>
+                        <ul class="botoes-acessos-loja">
+                            <a class="botao-wpp-link" href="https://api.whatsapp.com/send/?phone=%2B558432175038&text&type=phone_number&app_absent=0" target="_blank"><li class="botao-contatar">Contatar via Whatsapp</li></a>
+                            <a class="botao-maps-link" href="https://goo.gl/maps/PZf29xXVTME7yiANA"><li class="botao-maps">Abrir localização no Maps</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div id="anchor" style="display: flex; flex-direction: row; background-color: #FFCC29; margin-top: 50px;">
+                    <div class="divs-s2">
+                        <img class="img-croqui-petropolis" src="./images/foto-frente-croqui.png" alt="Croqui - Petropolis">
+                    </div>
+                    <div class="divs-s2" style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;">
+                        <h2 class="about-us-title" id="quem-somos">Quem nós somos:</h2>
+                        <p class="paragrafos">
+                            &emsp;A croqui é uma empresa focada em prestação de serviços em tecnologia digital para impressão. <br><br>
+                            A sua necessidade exige seriedade e comprometimento e é exatamente dessa forma que atuamos, além de você contar com nossos 17 anos de experiência. <br><br>
+                            Seus serviços serão elevados a um novo patamar de qualidade e prazo. <br><br>
+                            Convidamos você a experimentar novo conceito em atendimento. <br><br>
+                            Seja bem vindo! <br><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+           <div class="rodape-footer">© 1994-2022 birocroqui.com.br - Plotagem de projetos, impressão em grandes formatos, escaneamentos e entre outros serviços.</div> 
+           <div class="rodape-footer-dev">Developed by - Adriel Rosa</div>
+        </footer>
+
+        
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script type="text/javascript" src="js.js"></script>
+    </body>
+</html>

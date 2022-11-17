@@ -1,0 +1,85 @@
+.h1-principal {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    padding-top: 6.5em;
+    color: #fff;
+    text-shadow: 0px 2px 8px #000;
+}
+
+.h2-branco {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    text-shadow: 0px 2px 8px #000;
+}
+.h2-preto {
+    text-align: center;
+    margin: 1em;
+    font-size: 30px;
+}
+.about-us-title {
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 30px;
+}
+.paragrafos {
+    width: 80%;
+    font-size: 18px;
+}
+.h2-nomes-lojas {
+    text-align: left; 
+    padding-top: 1.9em;
+}
+.p-padrao {
+    width: 90%;
+}
+.categoria-texto {
+    font-size: 11px; 
+    color: #ED3237;
+    text-decoration: underline;
+}
+.voltar-inicio {
+    font-size: 10px;
+    color: #ED3237;
+}
+@media (max-width: 680px) {
+    .texto-horarios{
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    .h2-nomes-lojas {
+        padding-top: 0.5em;
+        padding-bottom: 0.8em;
+    }
+    .about-us-title{
+        font-size: 19px;
+        margin-top: 1.9em;
+    }
+    .paragrafos {
+        font-size: 10px;
+    }
+    .rodape-footer, .rodape-footer-dev{
+        font-size: 10px;
+    }
+    .titulo-principal {
+        font-size: 20px;
+    }
+    .categoria-texto {
+        font-size: 7px;
+    }
+    .subtitulo {
+        font-size: 19px;
+    }
+    .p-padrao {
+        font-size: 15px;
+    }
+    .texto-horarios{
+        font-size: 14px;
+    }
+    .texto-telefone {
+        font-size: 15px;
+    }
+
+}
