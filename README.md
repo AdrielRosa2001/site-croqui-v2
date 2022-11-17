@@ -22,5 +22,5 @@ Projeto de desenvolvimento do site da gráfica Croqui - Biro de plotagem (Projet
 ## Contatos
 
 - E-mail: adrielrosa@live.com
-- LinkedIn: https://www.linkedin.com/in/jonathan-ramos-p/
+- LinkedIn: https://www.linkedin.com/in/adriel-rosa-660431144/
 
