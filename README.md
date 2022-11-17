@@ -10,7 +10,7 @@
 
 Projeto de desenvolvimento do site da gráfica Croqui - Biro de plotagem (Projeto descontinuado)
 
-[Clique aqui para acessar o site](https://adrielrosa2001.github.io/site-croqui-v2/index.html)
+[Clique aqui para acessar o site](https://adrielrosa2001.github.io/site-croqui-v2/index.html) 
 
 ## Tecnologias
 
